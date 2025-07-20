@@ -1,0 +1,80 @@
+.icontxt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #293241;
+
+    margin-top: 16px;
+    margin-left: -16px;
+}
+
+.txt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #293241;
+}
+
+.navbar-nav li a {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+.form-control {
+    background: #C9E6FC;
+    border-radius: 49px;
+    margin-left: 29px;
+    padding: 10px;
+    width: 95%;
+
+    border: 0px solid #000000;
+
+}
+
+.username {
+    font-size: 16px;
+    font-weight: normal;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #c8b6ff;
+    border-radius: 24px;
+}
+
+#chat-container {
+    margin-top: 50px;
+    background: #F4F6FB;
+    border-radius: 24px;
+
+    height: 460px;
+
+}
+
+#chat {
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#chat .message {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#chat .message .user {
+    font-weight: bold;
+}
+
+#chat .message .bot {
+    color: gray;
+}
